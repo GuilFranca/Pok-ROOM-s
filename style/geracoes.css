@@ -1,0 +1,30 @@
+.geracoes {
+    background-color: var(--black);
+}
+
+.container__geracoes {
+    justify-self: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.geracoes img {
+    transition: transform 0.4s;
+}
+
+.geracoes img:hover {
+    transform: scale(1.1);
+}
+
+.geracoes__title {
+    margin-top: -20px;
+    padding: 5px;
+    color: var(--white);
+    text-align: center;
+    /* border-bottom: 2px solid var(--red); */
+    width: 90%;
+    justify-self: center;
+}

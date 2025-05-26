@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+footer img {
+    width: 150px;
+}
+
+.footer__navegation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer__navegation li a {
+    text-decoration: none;
+}
+
+.footer__navegation li a:hover {
+    text-decoration: underline;
+}

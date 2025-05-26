@@ -1,0 +1,23 @@
+.img__logo {
+    width: 75px;
+}
+
+.collapse__title {
+    color: white;
+}
+
+.collapse__itemList {
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.collapse__itemList:hover {
+    text-decoration: underline;
+}
+
+.bootstrap__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
