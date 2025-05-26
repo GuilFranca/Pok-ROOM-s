@@ -25,4 +25,5 @@ footer img {
 
 .footer__navegation li a:hover {
     text-decoration: underline;
+    color: var(--blue-link);
 }
