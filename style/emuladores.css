@@ -1,0 +1,30 @@
+.emuladores {
+    background-color: var(--black);
+    padding-bottom: 5px;
+}
+
+.container__emuladores {
+    justify-self: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.emuladores img {
+    transition: transform 0.4s;
+}
+
+.emuladores img:hover {
+    transform: scale(1.1);
+}
+
+.emuladores__title {
+    padding: 5px;
+    color: var(--white);
+    text-align: center;
+    /* border-bottom: 2px solid var(--red); */
+    width: 90%;
+    justify-self: center;
+}

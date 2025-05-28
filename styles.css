@@ -12,6 +12,9 @@
 /* Imporando css footer */
 @import url(./style/footer.css);
 
+/* Importando css Emuladores */
+@import url(./style/emuladores.css);
+
 @font-face {
     font-family: 'GBA';
     src: url('./assets/Pokemon_Classic_Regular/Pokemon_Classic.ttf') format('truetype');
