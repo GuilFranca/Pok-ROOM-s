@@ -15,6 +15,9 @@
 /* Importando css Emuladores */
 @import url(./style/emuladores.css);
 
+/* Importando css rooms */
+@import url(./style/rooms.css);
+
 @font-face {
     font-family: 'GBA';
     src: url('./assets/Pokemon_Classic_Regular/Pokemon_Classic.ttf') format('truetype');

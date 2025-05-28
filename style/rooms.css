@@ -1,0 +1,30 @@
+.rooms {
+    background-color: var(--black);
+    padding-bottom: 5px;
+}
+
+.container__rooms {
+    justify-self: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.rooms img {
+    transition: transform 0.4s;
+}
+
+.rooms img:hover {
+    transform: scale(1.1);
+}
+
+.rooms__title {
+    padding: 5px;
+    color: var(--white);
+    text-align: center;
+    /* border-bottom: 2px solid var(--red); */
+    width: 90%;
+    justify-self: center;
+}
