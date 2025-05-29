@@ -18,6 +18,9 @@
 /* Importando css rooms */
 @import url(./style/rooms.css);
 
+/* Importando css sobre */
+@import url(./style/sobre.css);
+
 @font-face {
     font-family: 'GBA';
     src: url('./assets/Pokemon_Classic_Regular/Pokemon_Classic.ttf') format('truetype');

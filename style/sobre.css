@@ -1,0 +1,17 @@
+.main__sobre {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo__sobre {
+    width: 250px;
+}
+
+.paragrafo__sobre {
+    width: 90%;
+    text-align: center;
+}
