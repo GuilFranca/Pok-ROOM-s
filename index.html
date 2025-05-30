@@ -11,32 +11,12 @@
 
 <body>
 
-  
-  <div class="navbar navbar-dark bg-danger shadow-sm">
-    <div class="container">
-      <a href="./index.html"><img class="img__logo" src="./images/PokéROOM's_Logo.png" alt=""></a>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
-        aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
+  <nav></nav>
+
+  <div class="navbar navbar-dark bg-danger shadow-sm d-md-none"></div>
 
   <!-- conteúdo que abre e fecha -->
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 offset-md-1 py-4">
-          <ul class="list-unstyled bootstrap__list">
-            <li><a href="./pages_navegation/emuladores.html" class="collapse__itemList">Emuladores</a></li>
-            <li><a href="./pages_navegation/ROOM's.html" class="collapse__itemList">ROOM's</a></li>
-            <li><a href="./pages_navegation/sobre.html" class="collapse__itemList">Sobre</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="collapse bg-dark d-md-none" id="navbarHeader"></div>
 
   <!-- Carossel -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -50,13 +30,16 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="./index.html"><img src="./images__carossel/capa 1 V2.png" class="d-block w-100" alt="Mantendo a jornada viva!"></a>
+        <a href="./index.html"><img src="./images__carossel/capa 1 V2.png" class="d-block w-100"
+            alt="Mantendo a jornada viva!"></a>
       </div>
       <div class="carousel-item">
-        <a href="./pages_navegation/emuladores.html"><img src="./images__carossel/emuladores carossel.png" class="d-block w-100" alt="Emuladores"></a>
+        <a href="./pages_navegation/emuladores.html"><img src="./images__carossel/emuladores carossel.png"
+            class="d-block w-100" alt="Emuladores"></a>
       </div>
       <div class="carousel-item">
-        <a href="./pages_navegation/ROOM's.html"><img src="./images__carossel/jogos carossel mobile.png" class="d-block w-100" alt="jogos Pokémon"></a>
+        <a href="./pages_navegation/ROOM's.html"><img src="./images__carossel/jogos carossel mobile.png"
+            class="d-block w-100" alt="jogos Pokémon"></a>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -96,21 +79,14 @@
 
   </section>
 
-  <footer>
-
-    <a href="#"><img src="./images/PokéROOM's_Logo.png" alt="Logo Pokémon ROOM's"></a>
-
-    <ul class="footer__navegation">
-      <li><a href="./pages_navegation/emuladores.html">Emuladores</a></li>
-      <li><a href="./pages_navegation/ROOM's.html">ROOM's</a></li>
-      <li><a href="./pages_navegation/sobre.html">Sobre</a></li>
-    </ul>
-
-  </footer>
+  <footer></footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/carossel.js"></script>
+  <script src="./js/footer.js"></script>
 
 </body>
 

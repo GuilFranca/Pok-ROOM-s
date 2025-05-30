@@ -11,68 +11,15 @@
 
 <body>
 
+    <nav></nav>
 
-    <div class="navbar navbar-dark bg-danger shadow-sm">
-        <div class="container">
-            <a href="../index.html"><img class="img__logo" src="../images/PokéROOM's_Logo.png" alt=""></a>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
-                aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </div>
+    <div class="navbar navbar-dark bg-danger shadow-sm d-md-none"></div>
 
     <!-- conteúdo que abre e fecha -->
-    <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <ul class="list-unstyled bootstrap__list">
-                        <li><a href="./emuladores.html" class="collapse__itemList">Emuladores</a></li>
-                        <li><a href="./ROOM's.html" class="collapse__itemList">ROOM's</a></li>
-                        <li><a href="./sobre.html" class="collapse__itemList">Sobre</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="collapse bg-dark" id="navbarHeader d-md-none"></div>
 
     <!-- Carossel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="../index.html"><img src="../images__carossel/capa 1 V2.png" class="d-block w-100"
-                        alt="Mantendo a jornada viva!"></a>
-            </div>
-            <div class="carousel-item">
-                <a href="./emuladores.html"><img src="../images__carossel/emuladores carossel.png" class="d-block w-100"
-                        alt="Emuladores"></a>
-            </div>
-            <div class="carousel-item">
-                <a href="./ROOM's.html"><img src="../images__carossel/jogos carossel mobile.png" class="d-block w-100"
-                        alt="jogos Pokémon"></a>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"></div>
 
     <section class="emuladores">
 
@@ -94,18 +41,11 @@
 
     </section>
 
-    <footer>
+    <footer></footer>
 
-        <a href="../index.html"><img src="../images/PokéROOM's_Logo.png" alt="Logo Pokémon ROOM's"></a>
-
-        <ul class="footer__navegation">
-            <li><a href="./emuladores.html">Emuladores</a></li>
-            <li><a href="./ROOM's.html">ROOM's</a></li>
-            <li><a href="./sobre.html">Sobre</a></li>
-        </ul>
-
-    </footer>
-
+    <script src="../js/navbar.js"></script>
+    <script src="../js/carossel.js"></script>
+    <script src="../js/footer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>

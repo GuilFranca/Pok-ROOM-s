@@ -38,8 +38,41 @@ button {
     color: white;
 }
 
+nav {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
-    .container-fluid {
-        justify-content: space-between;
+
+    .navbar,
+    .collapse {
+        display: none;
     }
+
+    nav {
+        display: flex;
+        width: 100%;
+        background-color: var(--red);
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .navbar__descktop__navegation_list {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    .navbar__descktop__navegation__list__item {
+        text-decoration: none;
+        color: var(--white);
+    }
+
+    .img__logo {
+        width: 100px;
+    }
+
 }
