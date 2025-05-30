@@ -1,5 +1,3 @@
-console.log("footer.js carregado");
-
 // já declarado anteriormente
 // let pontoEndereco;
 
