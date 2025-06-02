@@ -50,6 +50,7 @@ nav {
     }
 
     nav {
+        font-family: var(--primary-font);
         display: flex;
         width: 100%;
         background-color: var(--red);

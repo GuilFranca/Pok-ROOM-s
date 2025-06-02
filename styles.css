@@ -36,6 +36,7 @@
 }
 
 :root {
+    --primary-font: 'GBA', sans-serif;
     --white: white;
     --black: black;
     --red: #dc3545;
