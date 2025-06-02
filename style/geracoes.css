@@ -24,6 +24,7 @@
 .geracoes__title {
     margin-top: -20px;
     padding: 5px;
+    padding-top: 10px;
     color: var(--white);
     text-align: center;
     /* border-bottom: 2px solid var(--red); */
@@ -31,20 +32,13 @@
     justify-self: center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .container__geracoes {
         width: 100%;
+        gap: 15px;
     }
 
-    .container__geracoes a {
-        padding: 0;
-        margin: 0;
-        border: 1px solid red;
-        width: 200px;
-    }
-
-    .container__geracoes img {
-        border: 1px solid red;
-        width: 200px;
+    .geracoes {
+        padding-bottom: 10px;
     }
 }

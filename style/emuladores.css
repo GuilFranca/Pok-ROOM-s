@@ -29,3 +29,11 @@
     width: 90%;
     justify-self: center;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .container__emuladores a img {
+        width: 250px;
+    }
+
+}

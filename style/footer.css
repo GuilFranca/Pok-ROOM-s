@@ -28,3 +28,23 @@ footer img {
     text-decoration: underline;
     color: var(--blue-link);
 }
+
+@media screen and (min-width: 768px) {
+    footer {
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .footer__navegation {
+        flex-direction: row;
+        gap: 20px;
+        /* border: solid 1px red; */
+        padding: 0;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .footer__navegation li{
+        font-size: 20px;
+    }
+}

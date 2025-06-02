@@ -56,7 +56,7 @@ nav {
         background-color: var(--red);
         justify-content: space-around;
         align-items: center;
-        padding: 1em;
+        padding: 5px;
     }
 
     .navbar__descktop__navegation_list {
@@ -74,6 +74,30 @@ nav {
 
     .img__logo {
         width: 100px;
+    }
+
+    .navbar__descktop__navegation_list {
+        /* padding: 0; */
+        position: relative;
+        top: 5px;
+    }
+
+    .navbar__descktop__navegation_list li a {
+        position: relative;
+    }
+
+    .navbar__descktop__navegation_list li a::before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        height: 2px;
+        width: 0;
+        background-color: var(--white);
+        transition: width 0.5s ease;
+    }
+
+    .navbar__descktop__navegation_list li a:hover:before {
+        width: 100%;
     }
 
 }
