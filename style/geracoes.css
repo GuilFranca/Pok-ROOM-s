@@ -17,10 +17,6 @@
     transition: transform 0.4s;
 }
 
-.geracoes img:hover {
-    transform: scale(1.1);
-}
-
 .geracoes__title {
     margin-top: -20px;
     padding: 5px;
@@ -41,5 +37,10 @@
     .geracoes {
         padding-bottom: 10px;
     }
+}
 
+@media screen and (min-width: 1025px) {
+    .geracoes img:hover {
+        transform: scale(1.1);
+    }
 }

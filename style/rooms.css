@@ -17,10 +17,6 @@
     transition: transform 0.4s;
 }
 
-.rooms img:hover {
-    transform: scale(1.1);
-}
-
 .rooms__title {
     padding: 5px;
     color: var(--white);
@@ -38,5 +34,11 @@
 
     .rooms img {
         width: 200px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .rooms img:hover {
+        transform: scale(1.1);
     }
 }

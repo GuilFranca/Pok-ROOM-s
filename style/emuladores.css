@@ -17,10 +17,6 @@
     transition: transform 0.4s;
 }
 
-.emuladores img:hover {
-    transform: scale(1.1);
-}
-
 .emuladores__title {
     padding: 5px;
     color: var(--white);
@@ -31,9 +27,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+
     .container__emuladores a img {
         width: 250px;
     }
+}
 
+@media screen and (min-width: 1025px) {
+    .emuladores img:hover {
+        transform: scale(1.1);
+    }
 }
