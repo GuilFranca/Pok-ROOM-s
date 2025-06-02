@@ -26,6 +26,10 @@
     background-color: red !important;
 }
 
+.list-unstyled li a {
+    font-family: var(--primary-font);
+}
+
 .navbar .nav-link {
     color: white !important;
 }
