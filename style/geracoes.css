@@ -28,6 +28,10 @@
     justify-self: center;
 }
 
+.geracoes img:hover {
+    transform: scale(1.1);
+}
+
 @media screen and (min-width: 768px) {
     .container__geracoes {
         width: 100%;
@@ -36,11 +40,5 @@
 
     .geracoes {
         padding-bottom: 10px;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .geracoes img:hover {
-        transform: scale(1.1);
     }
 }

@@ -74,6 +74,18 @@
     text-decoration: underline;
 }
 
+.container__info__jogo {
+    padding-top: 20px;
+}
+
+.jogos__compativeis a img {
+    transition: transform 0.4s ease;
+}
+
+.jogos__compativeis a img:hover {
+    transform: scale(1.1);
+}
+
 /* Garante que os elementos fiquem lado a lado no tablet em diante */
 @media screen and (min-width: 768px) {
     .container__emuladores__info {
@@ -91,18 +103,6 @@
         box-sizing: border-box;
         /* evita que padding/margin quebre a largura */
         justify-content: flex-start;
-    }
-
-    .container__info__jogo {
-        padding-top: 20px;
-    }
-
-    .jogos__compativeis a img {
-        transition: transform 0.4s ease;
-    }
-
-    .jogos__compativeis a img:hover {
-        transform: scale(1.1);
     }
 
 }

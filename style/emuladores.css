@@ -26,15 +26,12 @@
     justify-self: center;
 }
 
-@media screen and (min-width: 768px) {
-
-    .container__emuladores a img {
-        width: 250px;
-    }
+.emuladores img:hover {
+    transform: scale(1.1);
 }
 
-@media screen and (min-width: 1025px) {
-    .emuladores img:hover {
-        transform: scale(1.1);
+@media screen and (min-width: 768px) {
+    .container__emuladores a img {
+        width: 250px;
     }
 }
