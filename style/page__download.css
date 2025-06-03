@@ -86,13 +86,11 @@
     transform: scale(1.1);
 }
 
-/* Garante que os elementos fiquem lado a lado no tablet em diante */
 @media screen and (min-width: 768px) {
     .container__emuladores__info {
         display: flex;
         flex-direction: row;
         gap: 20px;
-        /* espaço entre os blocos, opcional */
         min-height: 68vh;
         justify-content: center;
     }
@@ -101,8 +99,17 @@
     .container__info__jogo {
         width: 40%;
         box-sizing: border-box;
-        /* evita que padding/margin quebre a largura */
         justify-content: flex-start;
     }
 
+    /* .container__jogo {
+        position: sticky;
+        top: 20px;
+        align-self: flex-start;
+    }
+
+    .container__info__jogo {
+        overflow: auto;
+        max-height: 80vh;
+    } */
 }
