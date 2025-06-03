@@ -81,6 +81,7 @@
         gap: 20px;
         /* espaço entre os blocos, opcional */
         min-height: 68vh;
+        justify-content: center;
     }
 
     .container__jogo,
@@ -93,6 +94,14 @@
 
     .container__info__jogo {
         padding-top: 20px;
+    }
+
+    .jogos__compativeis a img {
+        transition: transform 0.4s ease;
+    }
+
+    .jogos__compativeis a img:hover {
+        transform: scale(1.1);
     }
 
 }
