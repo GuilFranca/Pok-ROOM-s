@@ -1,4 +1,4 @@
-.container__emuladores {
+.container__emuladores__info {
     /* border: 1px solid red; */
     width: 100%;
 }
@@ -7,10 +7,16 @@
     display: flex;
     flex-direction: column;
     padding-top: 10px;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
 }
 
 .container__jogo__img {
     width: 350px;
+    text-align: center;
+    /* border: 1px solid red; */
 }
 
 .container__info__jogo {
@@ -61,4 +67,32 @@
     gap: 10px;
     /* border: 1px solid red; */
     justify-content: center;
+}
+
+.dowload__link__jogo:hover {
+    text-decoration: underline;
+}
+
+/* Garante que os elementos fiquem lado a lado no tablet em diante */
+@media screen and (min-width: 768px) {
+    .container__emuladores__info {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        /* espaço entre os blocos, opcional */
+        min-height: 68vh;
+    }
+
+    .container__jogo,
+    .container__info__jogo {
+        width: 40%;
+        box-sizing: border-box;
+        /* evita que padding/margin quebre a largura */
+        justify-content: flex-start;
+    }
+
+    .container__info__jogo {
+        padding-top: 20px;
+    }
+
 }
