@@ -1,16 +1,15 @@
 let pontoEndereco;
 
 if (window.location.pathname.split('/').pop() === 'index.html') {
-    pontoEndereco = '.';
+  pontoEndereco = '.';
 } else {
-    pontoEndereco = '..';
+  pontoEndereco = '../..';
 }
 
 let navbarMobile = document.querySelector('.navbar');
 navbarMobile.innerHTML = `
     <div class="container">
-      <a href="${pontoEndereco}/index.html"><img class="img__logo" src="${pontoEndereco}/images/PokéROOM's_Logo.png" alt=""></a>
-      </a>
+      <a href="${pontoEndereco}/index.html"><img class="img__logo" src="${pontoEndereco}/images/images__main/PokéROOM's_Logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
         aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,9 +23,9 @@ collapseNavbarMobile.innerHTML = `
       <div class="row">
         <div class="col-sm-4 offset-md-1 py-4">
           <ul class="list-unstyled bootstrap__list">
-            <li><a href="${pontoEndereco}/pages_navegation/emuladores.html" class="collapse__itemList">Emuladores</a></li>
-            <li><a href="${pontoEndereco}/pages_navegation/ROOM's.html" class="collapse__itemList">ROOM's</a></li>
-            <li><a href="${pontoEndereco}/pages_navegation/sobre.html" class="collapse__itemList">Sobre</a></li>
+            <li><a href=".${pontoEndereco}/pages/pages_navegation/emuladores.html" class="collapse__itemList">Emuladores</a></li>
+            <li><a href="${pontoEndereco}/pages/pages_navegation/ROOM's.html" class="collapse__itemList">ROOM's</a></li>
+            <li><a href="${pontoEndereco}/pages/pages_navegation/sobre.html" class="collapse__itemList">Sobre</a></li>
           </ul>
         </div>
       </div>
@@ -35,12 +34,11 @@ collapseNavbarMobile.innerHTML = `
 
 let navbarDescktop = document.querySelector('nav');
 navbarDescktop.innerHTML = `
-    <a href="${pontoEndereco}/index.html"><img class="img__logo" src="${pontoEndereco}/images/PokéROOM's_Logo.png" alt=""></a>
+    <a href="${pontoEndereco}/index.html"><img class="img__logo" src="${pontoEndereco}/images/images__main/PokéROOM's_Logo.png" alt=""></a>
 
     <ul class="navbar__descktop__navegation_list">
-      <li><a href="${pontoEndereco}/pages_navegation/emuladores.html" class="navbar__descktop__navegation__list__item">Emuladores</a>
-      </li>
-      <li><a href="${pontoEndereco}/pages_navegation/ROOM's.html" class="navbar__descktop__navegation__list__item">ROOM's</a></li>
-      <li><a href="${pontoEndereco}/pages_navegation/sobre.html" class="navbar__descktop__navegation__list__item">Sobre</a></li>
+      <li><a href="${pontoEndereco}/pages/pages_navegation/emuladores.html" class="navbar__descktop__navegation__list__item">Emuladores</a> </li>
+      <li><a href="${pontoEndereco}/pages/pages_navegation/ROOM's.html" class="navbar__descktop__navegation__list__item">ROOM's</a></li>
+      <li><a href="${pontoEndereco}/pages/pages_navegation/sobre.html" class="navbar__descktop__navegation__list__item">Sobre</a></li>
     </ul>
 `;
