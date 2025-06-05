@@ -75,7 +75,7 @@
 }
 
 .container__info__jogo {
-    padding-top: 5px;
+    margin-top: -20px;
 }
 
 .jogos__compativeis a img {
@@ -84,6 +84,10 @@
 
 .jogos__compativeis a img:hover {
     transform: scale(1.1);
+}
+
+.info__jogo {
+    white-space: pre-line;
 }
 
 @media screen and (min-width: 768px) {
