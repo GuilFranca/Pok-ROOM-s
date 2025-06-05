@@ -23,7 +23,7 @@ collapseNavbarMobile.innerHTML = `
       <div class="row">
         <div class="col-sm-4 offset-md-1 py-4">
           <ul class="list-unstyled bootstrap__list">
-            <li><a href=".${pontoEndereco}/pages/pages_navegation/emuladores.html" class="collapse__itemList">Emuladores</a></li>
+            <li><a href="${pontoEndereco}/pages/pages_navegation/emuladores.html" class="collapse__itemList">Emuladores</a></li>
             <li><a href="${pontoEndereco}/pages/pages_navegation/ROOM's.html" class="collapse__itemList">ROOM's</a></li>
             <li><a href="${pontoEndereco}/pages/pages_navegation/sobre.html" class="collapse__itemList">Sobre</a></li>
           </ul>
